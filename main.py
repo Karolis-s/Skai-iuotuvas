@@ -1,5 +1,11 @@
 class Calculator:
-    def sudetis(self, a: float , b: float) -> float:
+    def __init__(self):
+        pass
+
+    def subtract(self, a, b):
+        return a - b
+
+    def addition(self, a: float , b: float) -> float:
         if self.number_validation(a) and self.number_validation(b):
             return a + b
         else:
