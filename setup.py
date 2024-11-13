@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="super-mega-duper-calculator",
+    name="baise_mondrs_kalkuliatorius",
     version="0.1.0",
     author="",
     email="",
