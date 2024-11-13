@@ -29,7 +29,7 @@ class Calculator:
         return isinstance(number, (int, float))
 
     def square(self, number: float) -> float:
-        if self.number_validation(number) and self.number_validation(number):
+        if self.number_validation(number):
             return number**2
         else:
             "Wrong Input"
